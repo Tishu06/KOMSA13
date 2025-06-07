@@ -2,90 +2,129 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TraumVest13 - Investieren & Verdienen</title>
   <style>
     body {
+      background-color: #f9f2e8;
       font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      color: #333;
+      color: #0a2f53;
       margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-      background: white;
-      padding: 20px 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      padding: 20px;
       text-align: center;
     }
-    .logo {
-      max-width: 180px;
-      margin-bottom: 20px;
-    }
-    h1, h2, h3 {
-      color: #003366;
-    }
-    .highlight {
-      color: #DAA520;
-      font-weight: bold;
-    }
-    ul {
-      text-align: left;
-      line-height: 1.6;
+
+    .container {
+      max-width: 800px;
       margin: 0 auto;
-      max-width: 600px;
     }
-    .button {
+
+    .logo {
+      max-width: 250px;
+      height: auto;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      font-size: 24px;
+      color: #e0a800;
+      margin: 30px 0 15px;
+    }
+
+    .box {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      margin: 20px 0;
+    }
+
+    .cta-button {
       margin-top: 30px;
     }
-    .button a {
-      background-color: #0070ba;
-      color: white;
-      padding: 14px 28px;
-      text-decoration: none;
-      font-size: 18px;
-      border-radius: 6px;
-      display: inline-block;
+
+    input[type="number"] {
+      padding: 10px;
+      font-size: 16px;
+      width: 200px;
+      margin-right: 10px;
     }
-    .button a:hover {
-      background-color: #005c99;
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #ffc439;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #f1b300;
+    }
+
+    .emoji {
+      font-size: 22px;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <img src="logo.png" alt="TraumVest13 Logo" class="logo">
-    <h1>TraumVest13</h1>
-    <h2>Investieren Sie 49 Euro â€“ Erhalten Sie 19,99 Euro jede Woche!</h2>
 
-    <p><strong>Sicher. Einfach. Gewinnbringend.</strong></p>
+    <!-- Logo -->
+    <img src="logo.png" alt="TraumVest13 Logo" class="logo" />
 
-    <p>Bei <strong>TraumVest13</strong> kÃ¶nnen Sie mit nur <span class="highlight">49 Euro</span> starten und erhalten <span class="highlight">jede Woche 19,99 Euro</span> fÃ¼r <strong>2 Monate (8 Wochen)</strong> direkt auf Ihr Konto!</p>
+    <!-- Headline -->
+    <p class="highlight">?? Investieren Sie nur 49 € – Erhalten Sie 19,99 € jede Woche!</p>
 
-    <h3>So funktioniert es:</h3>
-    <ul>
-      <li>Investieren Sie: <strong>49 Euro</strong></li>
-      <li>Erhalten Sie: <strong>19,99 Euro Ã— 8 Wochen = 159,92 Euro</strong></li>
-      <li><strong>Ihr Gewinn: Mehr als das 3-Fache Ihrer Investition!</strong></li>
-    </ul>
+    <p class="emoji">?? Sicher. Einfach. Gewinnbringend.</p>
 
-    <p><strong>Je mehr Sie investieren, desto mehr verdienen Sie!</strong></p>
-    <ul>
-      <li>98 Euro â†’ 39,98 Euro pro Woche â†’ 319,84 Euro in 2 Monaten</li>
-      <li>196 Euro â†’ 79,96 Euro pro Woche â†’ 639,68 Euro in 2 Monaten</li>
-      <li>245 Euro â†’ 99,95 Euro pro Woche â†’ 799,60 Euro in 2 Monaten</li>
-    </ul>
-
-    <h2>Jetzt investieren und passives Einkommen sichern!</h2>
-    <p><strong>Schnell. Transparent. Ohne Risiko.</strong></p>
-
-    <div class="button">
-      <a href="https://www.paypal.me/NarendraRathore939" target="_blank">Jetzt mit PayPal zahlen</a>
+    <div class="box">
+      <p>?? Bei <strong>TraumVest13</strong> können Sie mit nur <strong>49 €</strong> starten und erhalten jede Woche <strong>19,99 €</strong> für 2 Monate (8 Wochen) direkt auf Ihr Konto!</p>
     </div>
+
+    <div class="box">
+      <p><strong>?? So funktioniert es:</strong></p>
+      <p>Investieren Sie: <strong>49 €</strong><br>
+         Erhalten Sie: <strong>19,99 € × 8 Wochen = 159,92 €</strong><br>
+         Ihr Gewinn: <strong>Mehr als das 3-Fache Ihrer Investition!</strong></p>
+    </div>
+
+    <div class="box">
+      <p><strong>? Je mehr Sie investieren, desto mehr verdienen Sie!</strong></p>
+      <p>
+        98 € ? 39,98 €/Woche ? 319,84 € Gesamt<br>
+        196 € ? 79,96 €/Woche ? 639,68 € Gesamt<br>
+        245 € ? 99,95 €/Woche ? 799,60 € Gesamt
+      </p>
+    </div>
+
+    <p class="emoji">?? Jetzt investieren und passives Einkommen sichern!</p>
+    <p>?? Schnell. Transparent. Ohne Risiko.</p>
+    <p class="emoji">?? Sichern Sie sich Ihre wöchentliche Auszahlung – ganz automatisch mit TraumVest13!</p>
+
+    <!-- PayPal Button -->
+    <div class="cta-button">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL_HERE">
+        <input type="hidden" name="item_name" value="TraumVest13 Investment">
+        <input type="hidden" name="currency_code" value="EUR">
+        <input type="number" name="amount" placeholder="Betrag (€)" required min="1" step="0.01">
+        <button type="submit">Jetzt bezahlen</button>
+      </form>
+    </div>
+
   </div>
 
 </body>
